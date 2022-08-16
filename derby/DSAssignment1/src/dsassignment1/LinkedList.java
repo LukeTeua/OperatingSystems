@@ -13,18 +13,27 @@ public class LinkedList<E> {
 //stores the number of nodes in the LinkedList
 
 //An arrayList of nodes
-    ArrayList<Node> List;
+   
 
 //returns the size of the arrayList
     int size;
 
-    public LinkedList() {
-
-    }
+    public LinkedList() {}
 
     public void add(E data) {
-
+        
+           if(head == null)
+           {
+               
+           }
+        
 //add some data here
+
+
+
+
+
+
     }
 
     public void addInOrder(E data) {
@@ -47,9 +56,15 @@ public class LinkedList<E> {
 
 //remove the node from the head of the linked list
     }
-
+    
+    
     public void removeFromTail(Node node) {
+//Use recursion to do this. 
 
+        
+        
+        
+        
 // removes node from the tail of the linked list. 
     }
 
