@@ -1,2 +1,3 @@
 # OperatingSystems
-Operating Systems Labs
+
+Showcasing the use of C in Operating Systems Paper.
