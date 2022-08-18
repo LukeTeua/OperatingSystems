@@ -1,0 +1,28 @@
+#! /bin/bash
+
+if [ $# -ne 1 ]; then
+
+  echo "Please enter 1 arguments exactly"
+  
+fi
+
+if [ -d "$1" ];
+then 
+echo "Directory exists" 
+
+else 
+echo "Directory doesn't exist"
+fi
+
+path_here=$pwd
+
+if [ ! -d $path_here./q1/ ]; then  
+echo "q1 missing in this directory"
+fi
+
+if [ ! -d $path_here./q2/ ]; then
+echo "q2 missing in this directory"
+fi
+
+
+
